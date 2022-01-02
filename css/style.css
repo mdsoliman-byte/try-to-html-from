@@ -1,0 +1,36 @@
+.main_container {
+  width: auto;
+  height: auto;
+}
+.blog-container {
+  display: flex;
+}
+.blog {
+  height: 500px;
+  width: 200px;
+  background-color: honeydew;
+  margin: 10px 10px;
+  padding: 10px;
+  font-weight: 500;
+  border-radius: 20px;
+  text-align: center;
+}
+.blog img {
+  height: 200px;
+  padding: 20px;
+  border-radius: 30px;
+  cursor: none;
+}
+.blog h2 {
+  font-size: 20px;
+}
+.blog button {
+  height: 30px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+}
+.blog button:hover {
+  background-color: moccasin;
+  font-weight: 900;
+}
